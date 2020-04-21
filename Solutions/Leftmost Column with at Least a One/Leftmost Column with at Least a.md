@@ -14,7 +14,7 @@ For custom testing purposes you're given the binary matrix mat as input in the f
 
 
 ### Example 1:
-![Ex1](/images/Leftmost Column with at Least a One_EX1.jpg)
+![Ex1](Leftmost Column with at Least a One_EX1.jpg)
 
 ```
 Input: mat = [[0,0],[1,1]]
@@ -22,7 +22,7 @@ Output: 0
 ```
 
 ### Example 2:
-![Ex2](/images/Leftmost Column with at Least a One_EX2.jpg)
+![Ex2](Leftmost Column with at Least a One_EX2.jpg)
 
 ```
 Input: mat = [[0,0],[0,1]]
@@ -30,7 +30,7 @@ Output: 1
 ```
 
 ### Example 3:
-![Ex3](/images/Leftmost Column with at Least a One_EX3.jpg)
+![Ex3](Leftmost Column with at Least a One_EX3.jpg)
 
 ```
 Input: mat = [[0,0],[0,0]]
@@ -38,7 +38,7 @@ Output: -1
 ```
 
 ### Example 4:
-![Ex4](/images/Leftmost Column with at Least a One_EX4.jpg)
+![Ex4](Leftmost Column with at Least a One_EX4.jpg)
 
 ```
 Input: mat = [[0,0,0,1],[0,0,1,1],[0,1,1,1]]
