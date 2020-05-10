@@ -107,4 +107,23 @@ public:
         return true;
     }
 };
+
+Most common:
+class Solution {
+public:
+    int findJudge(int N, vector<vector<int>>& trust) {
+        vector<pair<int,int>>ans(N+1,{0,0});
+        for(int i=0;i<trust.size();i++)
+        {
+            ans[trust[i][0]].first++;
+            ans[trust[i][1]].second++;
+        }
+        for(int i=1;i<N+1;i++)
+        {
+            if(ans[i].first==0&&ans[i].second==N-1)
+                return i;
+        }
+        return -1;
+    }
+};
 */
