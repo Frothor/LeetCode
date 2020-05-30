@@ -13,7 +13,7 @@ In Java, we find the K-th distance by creating an array of distances and then so
 In Python, we sort by a custom key function - namely, the distance to the origin. Afterwards, we return the first K elements of the list.
 
 **Java**
-```
+```java
 class Solution {
     public int[][] kClosest(int[][] points, int K) {
         int N = points.length;
@@ -39,7 +39,7 @@ class Solution {
 ```
 
 **Python**
-```
+```python
 class Solution(object):
     def kClosest(self, points, K):
         points.sort(key = lambda P: P[0]**2 + P[1]**2)
@@ -70,7 +70,7 @@ First, we quickselect by a random pivot element from the subarray. To do this in
 After, we have two buckets **[oi, i]** and **[i+1, oj]**, where **(oi, oj)** are the original **(i, j)** values when calling **work(i, j, K)**. Say the first bucket has **10** items and the second bucket has **15** items. If we were trying to partially sort say, **K = 5** items, then we only need to partially sort the first bucket: **work(oi, i, 5)**. Otherwise, if we were trying to partially sort say, **K = 17** items, then the first **10** items are already partially sorted, and we only need to partially sort the next 7 items: **work(i+1, oj, 7)**.
 
 **Java**
-```
+```java
 import java.util.concurrent.ThreadLocalRandom;
 
 class Solution {
@@ -126,7 +126,7 @@ class Solution {
 ```
 
 **Python**
-```
+```python
 class Solution(object):
     def kClosest(self, points, K):
         dist = lambda i: points[i][0]**2 + points[i][1]**2
