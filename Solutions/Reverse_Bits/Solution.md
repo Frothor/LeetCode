@@ -6,7 +6,7 @@ Though the question is not difficult, it often serves as a warm-up question to k
 
 > As one of the most intuitive solutions that one could come up during an interview, one could reverse the bits **one by one**.
 
-![190_mapping](images/190_mapping.png);
+![190_mapping](images/190_mapping.png)
 
 As easy as it sounds, the above intuition could lead to quite some variants of implementation. For instance, to retrieve the *right-most* bit in an integer **n**, one could either apply the modulo operation (*i.e.* **n % 2**) or the bit AND operation (*i.e.* **n & 1**). Another example would be that in order to combine the results of reversed bits (*e.g.* 2^a, 2^b), one could either use the addition operation (*i.e.* 2^a + 2^b2) or again the bit OR operation (*i.e.* 2^a | 2^b2).
 
