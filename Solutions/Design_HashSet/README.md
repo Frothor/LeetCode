@@ -7,8 +7,8 @@ To be specific, your design should include these functions:
 * **contains(value)** : Return whether the value exists in the HashSet or not.
 * **remove(value)**: Remove a value in the HashSet. If the value does not exist in the HashSet, do nothing.
 
-Example:
-
+### Example:
+```
 MyHashSet hashSet = new MyHashSet();
 hashSet.add(1);         
 hashSet.add(2);         
@@ -18,9 +18,10 @@ hashSet.add(2);
 hashSet.contains(2);    // returns true
 hashSet.remove(2);          
 hashSet.contains(2);    // returns false (already removed)
+```
 
-Note:
+### Note:
 
-All values will be in the range of [0, 1000000].
-The number of operations will be in the range of [1, 10000].
-Please do not use the built-in HashSet library.
+* All values will be in the range of **[0, 1000000]**.
+* The number of operations will be in the range of **[1, 10000]**.
+* Please do not use the built-in HashSet library.
