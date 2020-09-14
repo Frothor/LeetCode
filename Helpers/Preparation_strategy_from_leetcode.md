@@ -24,3 +24,24 @@ I am going to discuss the strategy to prepare for your interviews using leetcode
 
 [Link to original post](https://leetcode.com/discuss/general-discussion/844616/preparation-strategy-from-leetcode-important-questions)
 
+
+Leetcode Company Wise Question
+https://github.com/MysteryVaibhav/leetcode_company_wise_questions
+
+OOPs top 50 interview questions
+https://www.edureka.co/blog/interview-questions/oops-interview-questions/
+
+Youtube Channel That will be helpful for the preparation
+
+1. https://www.youtube.com/channel/UCUQjKo3h1fe-uzr_n6Bx7PQ/videos [ for most frequently asked leetcode question ]
+2. https://www.youtube.com/channel/UC5WO7o71wvxMxEtLRkPhiQQ [ for Dynamic programming, binary search, stack, recursion, and heap ] ( language: Hindi )
+3. https://www.youtube.com/user/tusharroy2525 [ for algorithms ]
+
+Comparison between sorting algorithm in short
+https://leetcode.com/discuss/general-discussion/754949/sorting-algorithms-in-short
+
+Article on graph for beginner
+https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions
+
+Article on Dynamic Programming
+https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
