@@ -1,0 +1,52 @@
+//Most common
+public class Solution {
+    public int FirstMissingPositive(int[] nums) {
+            int missingNumber = 1;
+            nums = nums.OrderBy(n => n).ToArray();
+            foreach (var item in nums.OrderBy(n => n)) if (missingNumber == item) missingNumber++;
+
+            return missingNumber;
+    
+
+
+public class Solution {
+    public int FirstMissingPositive(int[] nums) {
+        Array.Sort(nums);
+        nums = nums.Distinct().ToArray();
+        int missing = 1;
+        for(int i = 0; i < nums.Length; i++) {
+            if(nums[i] > 0){
+                if(nums[i] == missing)
+                   missing++;
+                else
+                    return missing;
+            }
+        }
+        return missing;
+    }
+}
+
+public class Solution {
+public int FirstMissingPositive(int[] nums)
+        {
+for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] <= 0)
+                    nums[i] = int.MaxValue;
+            }
+            for (int i = 0; i < nums.Length; i++)
+            {
+                var index = Math.Abs(nums[i]) - 1;
+                if (index >= 0 && index < nums.Length && nums[index] > 0)
+                {
+                    nums[index] = -1 * nums[index];
+                }
+            }
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] > 0)
+                    return i + 1;
+            }
+            return nums.Length + 1;
+        }
+}
