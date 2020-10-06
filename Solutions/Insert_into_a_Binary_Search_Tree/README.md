@@ -6,14 +6,13 @@ You are given the `root` node of a binary search tree (BST) and a `value` to ins
  
 
 ### Example 1:
-![insertbst1](iamges/insertbst1.jpg)
-![insertbst2](iamges/insertbst2.jpg)
+![insertbst](images/insertbst.jpg)
 ```
 Input: root = [4,2,7,1,3], val = 5
 Output: [4,2,7,1,3,5]
 Explanation: Another accepted tree is:
 ```
-![bst](iamges/bst.jpg)
+![bst](images/bst.jpg)
 
 
 
