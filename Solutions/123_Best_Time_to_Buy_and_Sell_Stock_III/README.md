@@ -1,4 +1,4 @@
-# LeetCode Best Time to Buy and Sell Stock III
+# LeetCode 123 Best Time to Buy and Sell Stock III
 Say you have an array for which the *ith* element is the price of a given stock on day *i*.
 
 Design an algorithm to find the maximum profit. You may complete at most *two* transactions.
@@ -28,3 +28,8 @@ Input: [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ```
+
+### Constraints:
+
+* `1 <= prices.length <= 105`
+* `0 <= prices[i] <= 105`
