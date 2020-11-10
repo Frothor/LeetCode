@@ -175,6 +175,13 @@ class Solution:
         return helper(root, root.val, root.val)
 ```
 
+### Complexity Analysis
+
+Let ***N*** be the number of nodes in the binary tree.
+
+* Time complexity: ***O(N)*** since we visit all nodes once.
+
+* Space complexity: ***O(N)*** since we need stacks to do recursion, and the maximum depth of the recursion is the height of the tree, which is ***O(N)*** in the worst case and ***O(log(N))*** in the best case.
 
 
 ## [Python] O(n): look at child, explained
@@ -210,13 +217,4 @@ class Solution:
         return self.Max
 ```
 
-[Link to originla post](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/discuss/929284/Python-O(n)%3A-look-at-child-explained)
-
-### Complexity Analysis
-
-Let ***N*** be the number of nodes in the binary tree.
-
-* Time complexity: ***O(N)*** since we visit all nodes once.
-
-* Space complexity: ***O(N)*** since we need stacks to do recursion, and the maximum depth of the recursion is the height of the tree, which is ***O(N)*** in the worst case and ***O(log(N))*** in the best case.
-
+[Link to original post](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/discuss/929284/Python-O(n)%3A-look-at-child-explained)
