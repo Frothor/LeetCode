@@ -4,7 +4,7 @@ The idea behind determining whether 4 given set of points constitute a valid squ
 
 Now, the problem arises in determining which pairs of points act as the adjacent points on the square boundary. So, the simplest method is to consider every possible case. For the given 4 points, [*p<sub>0</sub>, p<sub>1</sub>, p<sub>2</sub>, p<sub>3</sub>*], there are a total of 4! ways in which these points can be arranged to be considered as the square's boundaries. We can generate every possible permutation and check if any permutation leads to the valid square arrangement of points.
 
-## General Idea
+### General Idea
 Four points construct a valid sqare iff the distance between each two points give exactly two distinct values (which are sqare side and diagonal) and none of these values equals 0
 
 ### Java
